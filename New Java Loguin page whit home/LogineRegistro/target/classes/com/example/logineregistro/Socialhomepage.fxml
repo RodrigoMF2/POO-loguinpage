@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1280.0" style="-fx-background-color: #222222;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="52.0" prefWidth="1280.0" style="-fx-background-color: #424242; -fx-border-color: #808080;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="56.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/Screenshot_20230424-122422_Gallery.jpg" />
+               </image>
+            </ImageView>
+            <Avatar layoutX="1221.0" layoutY="16.0" />
+            <ImageView fitHeight="39.0" fitWidth="32.0" layoutX="1165.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/icons8-facebook-messenger-48.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <right>
+      <AnchorPane prefHeight="706.0" prefWidth="359.0" style="-fx-background-color: #424242; -fx-border-color: #808080;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="58.0" layoutY="48.0" prefHeight="26.0" prefWidth="277.0" promptText=" Searh" style="-fx-background-color: #424242; -fx-border-color: white;" />
+            <ImageView fitHeight="35.0" fitWidth="37.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/icons8-search-48.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="700.0" prefWidth="234.0" BorderPane.alignment="CENTER">
+         <children>
+            <Avatar layoutX="52.0" layoutY="64.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/57967ea2eb6d43cac3aa559b52588808.jpg" />
+               </image>
+            </Avatar>
+            <ImageView fitHeight="444.0" fitWidth="503.0" layoutX="52.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/346894733_175899285420618_615032699672413608_n.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="94.0" layoutY="64.0" prefHeight="18.0" prefWidth="235.0" text="Username" textFill="#f7f7f7" />
+            <ScrollBar layoutX="529.0" orientation="VERTICAL" prefHeight="700.0" prefWidth="19.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="700.0" prefWidth="373.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
